@@ -1,0 +1,16 @@
+{
+  "name": "fonts-lab",
+  "version": "1.0.0",
+  "description": "helper for generate local fonts from google",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "./clean.sh",
+    "get-fonts": "npm run clean && node index.js"
+  },
+  "author": "untimid",
+  "license": "ISC",
+  "dependencies": {
+    "get-google-fonts": "^1.2.2"
+  }
+}
